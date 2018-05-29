@@ -12,7 +12,7 @@ function johnLennonFacts(facts){
   let i = 0;
   while (facts[i]){
 
-    anArr.push(`"${facts[i]}!!!"`)
+    anArr.push(`${facts[i]}!!!`)
     i++
   }
   return anArr;
