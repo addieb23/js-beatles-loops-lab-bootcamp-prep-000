@@ -23,7 +23,7 @@ function iLoveTheBeatles(number){
     do {
       anArr.push('I love the Beatles!')
       number--;
-    }while (number > 1);
+    }while (number > -1);
   }else anArr.push('I love the Beatles!');
   return anArr;
 }
